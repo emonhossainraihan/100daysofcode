@@ -1,0 +1,21 @@
+<nav>
+  <h1>100DaysOfCode</h1>
+  <a href="/">
+    {% if site.data.theme.social.gravatar %}
+    <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
+    {% else %}
+    <img src="https://secure.gravatar.com/avatar/0fd34130695d3d69a2a05f59511a5d5d?size=1000" id="logo" alt="Jeanine"/>
+    {% endif %}
+  </a>
+   <div id="bio">
+    <p>Find me at <a href="https://satinflame.com">satinflame.com</a></p>
+  
+  </div>
+  <div id="social">
+    {% include social.html %}
+  </div>
+
+  <div id="tags">
+    {% include tags.html %}
+  </div>
+</nav>

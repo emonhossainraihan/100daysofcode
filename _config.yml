@@ -1,0 +1,4 @@
+# General Jekyll Config
+highlighter: rouge
+remote_theme: swanson/lagom
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
